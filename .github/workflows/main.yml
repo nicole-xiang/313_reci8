@@ -30,7 +30,7 @@ jobs:
           pipenv run pytest
     
   coverage:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: Check out repository code
